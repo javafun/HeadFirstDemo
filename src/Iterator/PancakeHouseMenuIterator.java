@@ -1,6 +1,7 @@
 package Iterator;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class PancakeHouseMenuIterator implements Iterator {
 	ArrayList items;
@@ -27,6 +28,12 @@ public class PancakeHouseMenuIterator implements Iterator {
 		MenuItem menuItem = (MenuItem)items.get(position);
 		position = position + 1;
 		return menuItem;
+	}
+
+	@Override
+	public void remove() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
