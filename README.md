@@ -1,5 +1,6 @@
 # How to run this program from termianl
-Since the classes are packaged under "HeadFirst" package, therefore you need to run the classes from outside the package by specifying
+Since each pattern demo is  packaged under specific  package folder, therefore you need to run the classes from outside the package
 
->java HeadFirst.MenuTestDrive
+## Iterator demo (from terminal)
+>java Iterator.MenuTestDrive
 
