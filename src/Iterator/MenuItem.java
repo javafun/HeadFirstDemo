@@ -1,4 +1,4 @@
-package HeadFirst;
+package Iterator;
 
 public class MenuItem {
 	String name;
